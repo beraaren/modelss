@@ -1,0 +1,12 @@
+
+ModelAdi,Optimizer,OgrenmeHizi,OverfitEpochu,OverfitEgimi,FinalDogruluk,PrecisionRecallDengesi
+"VGG-16 + GA + SVM",Adam,0.001,75,0.001,0.758,0.6
+"EfficientNet-B0 + GA + SVM",Adam,0.005,65,0.0015,0.789,0.5
+"ViT + GA + SVM",AdamW,0.0001,85,0.0008,0.842,0.3
+VGG19,SGD,0.01,55,0.002,0.7133,0.4
+Inception-ResNet,Adam,0.001,70,0.001,0.795,0.3
+"Vision Transformer (ViT)",AdamW,0.0001,80,0.0009,0.825,0.4
+EfficientNet-B0,Adam,0.005,60,0.0012,0.764,0.6
+MobileNetV2,RMSprop,0.001,50,0.0025,0.712,0.3
+ConvNeXt-T,AdamW,0.0005,78,0.001,0.816,0.2
+"Inception-ResNet (Ensemble)",Adam,0.001,35,0.003,0.598,0.5

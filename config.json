@@ -1,0 +1,37 @@
+{
+    "simulation_settings": {
+        "random_seed": 42,
+        "noise_level": 0.03,
+        "min_loss": 0.1,
+        "max_accuracy": 0.95
+    },
+    "default_model_parameters": {
+        "total_epochs": 100,
+        "learning_rate_effect": 0.01,
+        "overfit_start_epoch": 60,
+        "overfit_slope": 0.001,
+        "target_final_accuracy": 0.90
+    },
+    "graphics_settings": {
+        "output_directory": "./outgraph",
+        "dpi": 300,
+        "figure_size": [12, 8],
+        "detailed_figure_size": [15, 10]
+    },
+    "metrics_settings": {
+        "model_bias_range": [-0.6, 0.6],
+        "precision_adjustment_factor": [0.94, 1.06],
+        "recall_adjustment_factor": [0.94, 1.06],
+        "precision_trade_off": [0.12, 0.15],
+        "recall_trade_off": [0.12, 0.15],
+        "external_val_range": [0.85, 0.98],
+        "test_acc_range": [0.88, 0.99],
+        "roc_auc_range": [1.02, 1.15],
+        "cm_diagonal_range": [0.95, 1.05]
+    },
+    "display_settings": {
+        "decimal_places": 4,
+        "max_model_name_length": 15,
+        "table_width": 80
+    }
+}
